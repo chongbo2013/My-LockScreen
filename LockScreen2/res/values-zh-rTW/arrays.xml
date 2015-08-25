@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="wallpaper_rotation" >
+        <item>每次點亮屏幕</item>
+        <item>一小时</item>
+        <item>一天</item>
+    </string-array>
+
+    <string-array name="auto_update" >
+        <item>不更新</item>
+        <item>仅在WLAN下</item>
+        <item>始終</item>
+    </string-array>
+
+</resources>

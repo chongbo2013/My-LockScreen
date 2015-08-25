@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_group"
+    android:paddingTop="36dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/btn_download"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:visibility="gone" />
+
+    <com.lewa.lockscreen2.RecommendAppGridView
+        android:id="@+id/gv_icon"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:listSelector="@android:color/transparent"
+        android:numColumns="4"
+        android:verticalSpacing="30dp"
+        android:layout_marginBottom="18dp"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:id="@+id/v_liner2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/gv_icon"
+        android:background="#66ffffff"
+        android:padding="25dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_app"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@id/v_liner2"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/img_flashlight"
+            android:layout_width="@dimen/recommendapp_height"
+            android:layout_height="@dimen/recommendapp_height"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/flashlight"/>
+
+        <ImageView
+            android:id="@+id/img_calculator"
+            android:layout_width="@dimen/recommendapp_height"
+            android:layout_height="@dimen/recommendapp_height"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/calculator_style" />
+
+        <ImageView
+            android:id="@+id/img_deskclock"
+            android:layout_width="@dimen/recommendapp_height"
+            android:layout_height="@dimen/recommendapp_height"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/deskclock_style" />
+
+        <ImageView
+            android:id="@+id/img_FMRadio"
+            android:layout_width="@dimen/recommendapp_height"
+            android:layout_height="@dimen/recommendapp_height"
+            android:src="@drawable/fmradio_style"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/v_liner1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/ll_app"
+        android:background="#66ffffff"
+        android:padding="25dp"/>
+
+    <RelativeLayout
+        android:layout_width="298dp"
+        android:layout_height="38dp"
+        android:layout_below="@id/v_liner1"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txt_bbs"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:drawableLeft="@drawable/bbs_style"
+            android:gravity="center_vertical"
+            android:drawablePadding="4dp"
+            android:text="@string/lockscreen_bbs"
+            android:textSize="14sp"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/txt_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/settings_style"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical"
+            android:text="@string/lockscreen_settings"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</RelativeLayout>

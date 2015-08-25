@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lewa.lockscreen2"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:name=".LewaLockscreenApplication"
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:theme="@lewa:style/V5.Theme">
+
+        <!-- android:theme="@lewa:style/V5.Theme" -->
+
+        <!--<activity
+            android:name=".LockscreenSettings"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>-->
+
+        <activity android:name=".LockScreenActivity"
+                  android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="lewa.intent.action.LOCKSCREEN"/>
+                <category android:name="lewa.intent.category.LOCKSCREEN"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".LockscreenSettings"
+                  android:theme="@style/AppManagerTheme"
+                  android:screenOrientation="portrait"
+                  android:label="@string/lockscreen_settings_title"
+                  android:exported="true"/>
+        <activity android:name=".LockscreenAppManager"
+                  android:theme="@style/AppManagerTheme"
+                  android:screenOrientation="portrait"
+                  android:label="@string/appmanager_title"
+                  android:uiOptions="splitActionBarWhenNarrow"/>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+</manifest>

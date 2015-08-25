@@ -1,0 +1,8 @@
+.classpath
+.project
+assets
+bin
+build
+gen
+local.properties
+*.iml

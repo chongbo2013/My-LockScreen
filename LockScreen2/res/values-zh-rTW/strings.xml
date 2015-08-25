@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LewaLockscreen2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="default_time">00:00</string>
+    <string name="default_data">01.01 星期一 正月初一</string>
+    <string name="action_settings">Settings</string>
+    <string name="lockscreen_bbs">吐槽壹下</string>
+    <string name="lockscreen_settings">鎖屏設置</string>
+
+    <!-- lockscreen settings -->
+    <string name="lockscreen_settings_title">美圖鎖屏設置</string>
+    <string name="shortcut_manager">快捷應用管理</string>
+    <string name="wallpaper_rotation">輪換頻率</string>
+    <string name="auto_update">自動更新</string>
+    <string name="shortcut_manager_summary">設置鎖屏界面的快捷應用列表</string>
+    <string name="wallpaper_rotation_summary">每次點亮屏幕</string>
+    <string name="auto_update_summary">僅在WLAN下</string>
+    <string name="check_app_num_toast">您最多可以選擇6個應用</string>
+
+    <string name="apply">應用</string>
+    <string name="add">添加</string>
+    <string name="checked_prompt">還可以選擇%1$d個應用</string>
+    <string name="appmanager_title">鎖屏快捷應用管理</string>
+    <string name="network_toast_prompt">網絡連接失敗，請連接網絡後重試</string>
+    <string name="toast_update_lastest">壁紙庫已經是最新版本，無需更新</string>
+    <string name="toast_update_success">更新成功，共更新%1$d張壁紙</string>
+    <string name="toast_update_success2">更新成功，共更新%1$d張壁紙</string>
+    <string name="toast_update_fail">更新失敗，請稍後再試</string>
+
+    <string name="time_1900">1900年1月31日</string>
+    <string name="chineseDateFormat">yyyy年MM月dd日</string>
+    <string name="month">月</string>
+</resources>

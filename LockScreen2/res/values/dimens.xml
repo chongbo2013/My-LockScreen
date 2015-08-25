@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- lockscreen -->
+    <dimen name="recommendapp_height">52dp</dimen>
+    <dimen name="recommendappname_size">12sp</dimen>
+
+    <dimen name="localapp_height">62dp</dimen>
+    <dimen name="mask_height">154dp</dimen>
+
+</resources>

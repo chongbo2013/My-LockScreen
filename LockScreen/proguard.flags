@@ -1,0 +1,41 @@
+-optimizationpasses 8
+-allowaccessmodification
+-mergeinterfacesaggressively
+-dontpreverify
+-overloadaggressively
+-optimizations !field/removal/writeonly,!field/marking/private,!class/merging/*,!code/allocation/variable
+-verbose
+-repackageclasses
+-dontwarn android.support.v4.**,com.lewa.bi.**
+
+-keep class **.FancyLockScreen  { *; }
+
+-keepclassmembers class * extends android.app.Fragment {
+	public static int TITLE;
+	public void onFocus();
+}
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}

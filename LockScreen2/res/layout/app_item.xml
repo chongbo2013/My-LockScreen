@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/img_icon"
+        android:layout_width="@dimen/localapp_height"
+        android:layout_height="@dimen/localapp_height"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="4dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:src="@drawable/recommendappicon"/>
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_icon"
+        android:layout_centerHorizontal="true"
+        android:singleLine="true"
+        android:textSize="@dimen/recommendappname_size"
+        android:layout_marginTop="4dp"
+        android:textColor="#C8000000"
+        android:text="@string/hello_world" />
+
+    <ImageView android:id="@+id/img_index"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:layout_alignRight="@id/img_icon"
+        android:visibility="gone"/>
+</RelativeLayout>

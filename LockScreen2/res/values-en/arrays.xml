@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="wallpaper_rotation" >
+        <item>Screen on</item>
+        <item>1 hour</item>
+        <item>1 day</item>
+    </string-array>
+
+    <string-array name="auto_update" >
+        <item>Off</item>
+        <item>WLAN only</item>
+        <item>Always(Cellular data needed)</item>
+    </string-array>
+
+    <string-array name="week" >
+        <item>Sun.</item>
+        <item>Mon.</item>
+        <item>Tue.</item>
+        <item>Wed.</item>
+        <item>Thur.</item>
+        <item>Fri.</item>
+        <item>Sat.</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="wallpaper_rotation" >
+        <item>每次点亮屏幕</item>
+        <item>一小时</item>
+        <item>一天</item>
+    </string-array>
+
+    <string-array name="auto_update" >
+        <item>不更新</item>
+        <item>仅在WLAN下</item>
+        <item>始终</item>
+    </string-array>
+
+    <string-array name="week" >
+        <item>星期日</item>
+        <item>星期一</item>
+        <item>星期二</item>
+        <item>星期三</item>
+        <item>星期四</item>
+        <item>星期五</item>
+        <item>星期六</item>
+    </string-array>
+
+    <string-array name="chineseNumber" >
+        <item>一</item>
+        <item>二</item>
+        <item>三</item>
+        <item>四</item>
+        <item>五</item>
+        <item>六</item>
+        <item>七</item>
+        <item>八</item>
+        <item>九</item>
+        <item>十</item>
+        <item>十一</item>
+        <item>十二</item>
+    </string-array>
+
+    <string-array name="chineseTen" >
+        <item>初</item>
+        <item>十</item>
+        <item>廿</item>
+        <item>卅</item>
+    </string-array>
+    <string-array name="amAndPm" >
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+</resources>

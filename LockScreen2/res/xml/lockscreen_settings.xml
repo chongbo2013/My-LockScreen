@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:key="shortcut_manager"
+        android:widgetLayout="@null"
+        android:title="@string/shortcut_manager"
+        android:summary="@string/shortcut_manager_summary" />
+    <Preference android:key="wallpaper_rotation"
+        android:widgetLayout="@null"
+        android:title="@string/wallpaper_rotation"
+        android:summary="@string/wallpaper_rotation_summary" />
+    <com.lewa.lockscreen2.RefreshPreference android:key="auto_update"
+        android:widgetLayout="@null"
+        android:title="@string/auto_update"
+        android:summary="@string/auto_update_summary"/>
+</PreferenceScreen>
